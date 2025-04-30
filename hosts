@@ -1,0 +1,5 @@
+[wordpress]
+192.168.1.9 ansible_user=gabriel ansible_ssh_private_key_file='/home/gabriel/workspaces/vsc/ias-ansible/keys/delta1'
+
+[mysql]
+192.168.1.8 ansible_user=gabriel ansible_ssh_private_key_file='/home/gabriel/workspaces/vsc/ias-ansible/keys/deltadb'

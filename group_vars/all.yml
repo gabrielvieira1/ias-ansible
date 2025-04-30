@@ -1,0 +1,14 @@
+---
+wp_db_name: "wordpress_db"
+wp_db_user: "wordpress_user"
+wp_db_pass: "12345"
+
+wp_salts:
+  - { search_string: "define( 'AUTH_KEY',         'put your unique phrase here' );", line: "define('AUTH_KEY',         'CIO2|?ehUrL`imPGgLy[b(i>,:P?Qa`Ie%LY/?djMa,A?^Jm4~m0<LN3L .9;9LW');" }
+  - { search_string: "define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );", line: "define('SECURE_AUTH_KEY',  '-tXP;^.SeQy{]=-~l>MPMZ/63CRT)`|O.-=(.15U9!Rkv|B{.L*!>jdf8V(_aScI');" }
+  - { search_string: "define( 'LOGGED_IN_KEY',    'put your unique phrase here' );", line: "define('LOGGED_IN_KEY',    ')sdSX^`e5OVEvcWg*FeRZBFyZkx|?hM7?Ts+*Z-)D%#}pSaBkp>(Om,xT|+F/[f4');" }
+  - { search_string: "define( 'NONCE_KEY',        'put your unique phrase here' );", line: "define('NONCE_KEY',        'GO z`w!Qr$TkH|9$Y_>V^umM&4DiLY}(]i{@w(s4FD&HP)wX|*O&;I7zO|9+`tRM');" }
+  - { search_string: "define( 'AUTH_SALT',        'put your unique phrase here' );", line: "define('AUTH_SALT',        'H7rcmkt{#?0so]1C^0Usi%MBx3T#4_B2pN|XK;$@{[(]A:plb{9kGKmg)=!}mBG8');" }
+  - { search_string: "define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );", line: "define('SECURE_AUTH_SALT', '1R`D5oDP_AYtEc05&c(Z-[8!`}p<X8T(&bO:rT?1|&T]t9E%d-=PL}z[`r1Gy^Rp');" }
+  - { search_string: "define( 'LOGGED_IN_SALT',   'put your unique phrase here' );", line: "define('LOGGED_IN_SALT',   'i)CCFN-*,nPB*8v9`%x#X3uq?>0-~UfD2[ydBcIbDL/~zdrN,~4!~[=/~6^w@3||');" }
+  - { search_string: "define( 'NONCE_SALT',       'put your unique phrase here' );", line: "define('NONCE_SALT',       '1 Av/;b}3.TJ-F2$*)3vdL/b^qz#4Q F5k5[m_q2|t365MYNq^>tRb~k-QC3TR9z');" }
